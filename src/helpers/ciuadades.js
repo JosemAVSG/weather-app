@@ -1,6 +1,10 @@
 import { ajax } from "./ajax";
 
+
+
+
 export const getCities = async (country) => {
+  
   const optionsRequest = {
     Method: "GET",
     url: `https://spott.p.rapidapi.com/places/`,
