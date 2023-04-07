@@ -1,0 +1,82 @@
+body {
+  background-color: #84abb8;  
+  color:#0c2152;
+  text-align: center;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.container {
+  box-sizing: border-box;
+	max-width: 1040px;
+	width: 100%;
+	margin: 0 auto;	
+	padding: 20px;  
+}
+.row {
+  display: flex;
+  /* flex-direction: wrap;
+  max-width: 500px;
+  margin: 0 auto; */
+  justify-content: center;
+}
+
+
+
+.card {
+  margin-top: 20px;
+    display:flex;    
+    justify-content: center;
+}
+
+.card-container {
+  margin:  20px 5px;
+  border-radius: 20px;
+  position: absolute;    
+  width: 470px;
+  height: 470px;
+  background-color: #f2f4f6;    
+  box-shadow: 0px 0px 25px 1px rgba(50, 50, 50, 0.1);       
+}
+.city-name {    
+  font-weight:300;
+  font-size:40px;
+  color: #0d0e0f;
+  bottom: 0;    
+}
+.icon {
+  position: relative;
+  width: 300px;
+  left: 30px;
+  height: 300px;
+  bottom: 330px;
+  float:right;
+  margin: 5px 5px 0 0;    
+}
+.temp {
+  position: relative;
+  font-weight:300;
+  font-size:80px;
+  color:#17223b ;        
+  right: 120px;
+}
+.card-footer {
+  background-color: #16459d;     
+  color: aliceblue;                
+  position:relative;
+  bottom: 280px;
+  /* left: 0px; */
+  border-radius: 0px 0px 20px 20px;        
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.temp-max-min {    
+  font-weight:300;
+  font-size:50px;
+  color: aliceblue;    
+  
+}
