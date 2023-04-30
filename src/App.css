@@ -23,7 +23,11 @@ body {
   justify-content: center;
 }
 
-
+label{
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
 
 .card {
   margin-top: 20px;

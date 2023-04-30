@@ -1,5 +1,4 @@
 import { ajax } from "./ajax";
-const apiKey = process.env.REACT_APP_APIKEY_RAPIDAPI;
 
 
 
@@ -16,7 +15,7 @@ export const getCities = async (country) => {
       country: `${country}`,
     },
     headers: {
-        'X-RapidAPI-Key': apiKey,
+        'X-RapidAPI-Key': 'e6b12d90fdmsh76bc1eadf7e8666p1a4cefjsn7c54d0bbf19d',
         'X-RapidAPI-Host': 'spott.p.rapidapi.com'
     },
    
