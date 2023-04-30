@@ -37,7 +37,7 @@ function App() {
     <>
       <div className="container">
         <h2>Weather APP</h2>
-        <div className="row">
+        <div className="row ">
           <label htmlFor="paises">Elige un pais: </label>
 
           <Select 
